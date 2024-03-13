@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update_note"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activities.UpdateNoteActivity">
+
+    <TextView
+        android:id="@+id/idUpdateNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/update_note"
+        android:textAlignment="viewStart"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        android:typeface="normal"
+        tools:ignore="RelativeOverlap" />
+
+    <ImageView
+        android:id="@+id/idUpdateNoteIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/idUpdateNote"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/orange_border"
+        android:clickable="true"
+        android:contentDescription="@string/update_note_icon"
+        android:src="@drawable/ic_edit" />
+
+    <EditText
+        android:id="@+id/idNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idUpdateNote"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/orange_border"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="@string/enter_the_title"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:tooltipText="@string/enter_the_title"
+        android:typeface="normal"
+        android:visibility="visible"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/idNoteDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idNoteTitle"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/orange_border"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="top"
+        android:hint="@string/enter_the_description"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NoteCraft</string>
+    <string name="floating_action_tooltip">Add note</string>
+    <string name="add_note">Add note.</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_the_description">Enter the description</string>
+    <string name="note_craft">Note Craft</string>
+    <string name="str_title">STR_TITLE</string>
+    <string name="str_content">STR_CONTENT</string>
+    <string name="str_date">STR_DATE</string>
+    <string name="update_note">Update note</string>
+    <string name="update_note_icon">update note</string>
+</resources>
