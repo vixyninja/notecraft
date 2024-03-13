@@ -1,7 +1,5 @@
 # NoteCraft
 
-![NoteCraft Logo](<img src="https://avatars.githubusercontent.com/u/93599524?v=4" width="150px" height="150px"/>)
-
 NoteCraft is a minimalist note-taking application built for Android devices. It offers a simple yet efficient way to manage your notes on-the-go.
 
 ## Features
